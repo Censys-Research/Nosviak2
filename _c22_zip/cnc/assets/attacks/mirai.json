@@ -1,0 +1,38 @@
+{
+    "udp" : {
+        "enabled":true,
+        "description":"generic udp based string flood",
+        "permissions":[],
+
+        "options" : {
+            "group" : "bypass",
+            "maxtime_override":0,
+            "enhanced_maxtime":0,
+            "default_duration":60,
+            "default_port":80,
+            "bypass_cooldown":false,
+            "global_user_limit":1,
+            "attack_launched_branding":"attacks/attack-sent.itl",
+            "api_method":true,
+
+            "keyvalues" : {
+                "len":{
+                    "id" : 0,
+                    "type" : "INT",
+                    "forced" : false,
+                    "default" : "512",
+                    "max_length" : 7,
+                    "max_int_size" : 4096,
+                    "views" : {
+                        "forced" : "attacks/kv/kv_missing.itl",
+                        "invalid_type" : "attacks/kv/invalid_type.itl",
+                        "too_big" : "attacks/kv/too_big.itl"
+                    }
+                }
+            }
+        },
+
+        "id":0,
+        "port":7
+    }
+}

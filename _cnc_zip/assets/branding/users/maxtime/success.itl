@@ -1,0 +1,1 @@
+\033[38;5;40m  Success\x1b[97m! MaxTime changed from <<oldmaxtime()>> -> <<newmaxtime()>> for <<username()>>

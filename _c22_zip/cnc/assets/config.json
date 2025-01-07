@@ -1,0 +1,26 @@
+{
+    "database": {
+        "name": "Nos2",
+        "username": "nosviak2_client",
+        "password": "vKeXAorBwnBQPk3QG83BeB7ncO7WGjWT",
+        "host": "localhost:3306"
+    },
+    "masters": {
+        "server": {
+            "protocol": "tcp",
+            "listener": "46.105.60.165:1337",
+            "dynamicAuth": true
+        },
+        "maxAuthAttempts": 4,
+        "serverKey": "ssh.ppk",
+        "beforePasswdPrompt": {
+            "status": false,
+            "message": "Nosviak2 - FB:2022"
+        },
+        "accounts": {
+            "passwordLength": 32,
+            "maxSessions": 3,
+            "daysExpiry": 30
+        }
+    }
+}

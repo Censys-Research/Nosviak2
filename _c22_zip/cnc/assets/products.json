@@ -1,0 +1,17 @@
+{
+          "[sellix_productID]": {
+                    "action": "create_user",
+                    "fields": {
+                              "ranks": ["vip"],
+                              "theme": "",
+                              "maxtime": 86400,
+                              "cooldown": 1200,
+                              "concurrents": 3,
+                              "max_sessions": 1,
+                              "expiry": {
+                                        "type": "set",
+                                        "value": 120
+                              }
+                    }
+          }
+}

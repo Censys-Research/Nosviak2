@@ -1,0 +1,6 @@
+{"target":"2.2.3.4","duration":30,"port":443,"method":"udp","created":1702660078,"finish":1702660108,"username":"root"}
+{"target":"2.2.3.4","duration":30,"port":443,"method":"udp","created":1702660503,"finish":1702660533,"username":"root"}
+{"target":"2.2.3.4","duration":30,"port":443,"method":"udp","created":1702660538,"finish":1702660568,"username":"root"}
+{"target":"2.2.3.5","duration":30,"port":443,"method":"udp","created":1702660557,"finish":1702660587,"username":"root"}
+{"target":"2.2.3.56","duration":30,"port":443,"method":"udp","created":1702660576,"finish":1702660606,"username":"root"}
+{"target":"2.2.3.56","duration":30,"port":443,"method":"udp","created":1702660714,"finish":1702660744,"username":"root"}

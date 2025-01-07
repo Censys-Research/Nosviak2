@@ -1,0 +1,28 @@
+{
+    "home" : {
+        "enabled":true,
+        "description":"home api flood",
+        "permissions":[],
+        "target" : {
+            "method":"HOME",
+            "url":["https://localhost:8080/api/attack?target=<<$target>>&port=<<$port>>&duration=<<$duration>>"],
+            "minimumSuccess":1,
+            "PathEncoding":true
+        },
+
+        "options" : {
+            "group" : "bypass",
+            "spinner":"attack",
+            "maxtime_override":0,
+            "enhanced_maxtime":0,
+            "default_duration":60,
+            "default_port":80,
+            "bypass_cooldown":false,
+            "global_user_limit":0,
+            "attack_launched_branding":"attacks/attack-sent.itl",
+            "api_method":true,
+            "keyvalues" : {
+            }
+        }
+    }
+}
